@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.account-container {
+  top: 0px;
+  left: 0px;
+
+  width: 375px;
+  height: 812px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+}
+
+.account-box {
+  width: 231px;
+  height: 33px;
+  margin-left: 20px;
+}
+
+.account-text-header {
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  padding-top: 40px;
+  color: #1d2226;
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.account-text-box {
+  width: 188px;
+  height: 69px;
+}
+
+.text-input {
+  width: 335px;
+  height: 40px;
+  margin-bottom: 29px;
+  opacity: 100%;
+  outline: none;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  background: #f7f8f9;
+  padding-left: 16px;
+  color: #1d2226;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.input-container {
+  margin-top: 71px;
+  position: relative;
+}
+
+.label-input {
+  width: 65px;
+  height: 15px;
+}
+
+.full-name,
+.phone-number,
+.email-address,
+.password,
+.company-name {
+  position: absolute;
+  left: 13px;
+}
+
+.full-name {
+  top: -12px;
+}
+.phone-number {
+  top: 56px;
+}
+
+.email-address {
+  top: 125px;
+}
+
+.password {
+  top: 194px;
+}
+
+.company-name {
+  top: 263px;
+}
+
+.fname-box,
+.phone-box,
+.email-box,
+.password-box,
+.company-box {
+  width: 98px;
+  height: 15px;
+  color: #6c25ff;
+  background-color: #f7f8f9;
+  font-family: "Rubik", sans-serif;
+  opacity: 100%;
+  font-size: 13px;
+  font-weight: 400;
+}
+.company {
+  margin-bottom: 0;
+}
+
+span {
+  color: #dd4a3d;
+  opacity: 100%;
+}
+
+.footer-box {
+  width: 125px;
+
+  margin-top: 18px;
+}
+.footer-para {
+  height: 15px;
+  opacity: 100%;
+  font-size: 13px;
+  text-align: left;
+  color: #1d2226;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+.checkbox-rounded {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  accent-color: #6c25ff;
+}
+
+.radio-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.checkbox-option {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  font-size: 14px;
+  margin-left: -12px;
+  color: #1d2226;
+  letter-spacing: 0px;
+}
+.footer-btn {
+  margin-top: 210px;
+}

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  top: 0px;
+  left: 0px;
+
+  width: 375px;
+  height: 812px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+}
+
+.profile-box {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.profile-header {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 68px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-text {
+  width: 231px;
+  height: 33px;
+  margin-top: 27px;
+  margin-left: 15px;
+  color: #1d2226;
+  opacity: 100%;
+  font-size: 18px;
+  font-family: 400;
+}
+.camera-logo {
+  position: absolute;
+  top: 148px;
+  margin-left: -18px;
+}
+
+.details {
+  position: absolute;
+  display: inline;
+  top: 98px;
+  margin-left: 20px;
+}
+
+.name {
+  width: 80px;
+  height: 18px;
+  margin-bottom: 6px;
+  font-size: 15px;
+
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+  text-align: left;
+}
+.email-id {
+  color: #1d2226;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+  text-align: left;
+  font-weight: 400;
+}
+
+.description {
+  width: 337px;
+  height: 63px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.border-design-one {
+  margin-top: -6px;
+  width: 375px;
+  height: 0px;
+  border: 1px dashed #cbcbcb;
+  opacity: 1;
+}
+
+.border-design-two {
+  margin-top: 475px;
+  width: 375px;
+  height: 0px;
+  border: 1px dashed #cbcbcb;
+  opacity: 1;
+}

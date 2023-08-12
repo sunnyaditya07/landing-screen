@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  top: 0px;
+  left: 0px;
+
+  width: 375px;
+  height: 812px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box {
+  top: 549px;
+  left: 20px;
+  width: 231px;
+  height: 33px;
+  margin-left: 20px;
+  margin-bottom: 230px;
+}
+
+.form-text-header {
+  width: 231px;
+  height: 33px;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  color: #1d2226;
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+p {
+  width: 232px;
+  height: 48px;
+
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1d2226;
+  opacity: 0.6;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin-bottom: 29px;
+}
+button {
+  width: 335px;
+  height: 46px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 6px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-btn {
+  color: #fff;
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  color: #1d2226;
+  background: #6c25ff4b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 41px;
+}
